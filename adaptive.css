@@ -1,0 +1,245 @@
+@media (max-width: 1500px) {
+    .aboutMeSection {
+        margin: 150px 200px;
+    }
+}
+@media (max-width: 1200px) {
+    .nav{
+        width: 65%;
+    }
+    .aboutMe p {
+        font-size: 40pt;
+    }
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+    .title{
+        font-size: 15pt;
+    }
+    .inner img{
+        max-height: 70px;
+    }
+    .titelFoot a {
+        font-size: 24pt;
+    }
+    .footerContacts {
+        font-size: 20pt;
+    }
+}
+@media (max-width: 1100px) {
+    .aboutMeSection {
+        margin: 120px 170px;
+    }
+}
+@media (max-width: 950px) {
+    .title{
+        font-size: 13pt;
+    }
+    .titelFoot a {
+        font-size: 20pt;
+    }
+    .aboutMeSection {
+        margin: 100px 150px;
+    }
+    .aboutMe p {
+        font-size: 38pt;
+    }
+    .inf p{
+        font-size: 12pt;
+    }
+    .threeColumn {
+        width: 800px;
+    }
+    .column b {
+        font-size: 18pt;
+    }
+    .column p {
+        font-size: 10pt;
+    }
+    .footerContacts {
+        font-size: 16pt;
+    }
+    .columnNav p {
+        font-size: 14pt;
+    }
+}
+
+@media (max-width: 830px) {
+    .aboutMeSection {
+        margin: 80px 130px;
+    }
+    .aboutMe p {
+        font-size: 24pt;
+    }
+    .inf p{
+        padding-left: 20px;
+        font-size: 12pt;
+    }
+    .inner img{
+        max-height: 68px;
+    }
+    .navBox1, .navBox2, .navBox3{
+        font-size: 10pt;
+    }
+}
+@media (max-width: 759px) {
+    .aboutMeSection {
+        margin: 60px 110px;
+    }
+    .aboutMe p {
+        font-size: 24pt;
+    }
+    .inf p{
+        padding-left: 20px;
+        font-size: 10pt;
+    }
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    .title{
+        font-size: 10pt;
+    }
+    .threeColumn {
+        width: 700px;
+    }
+    .column b {
+        font-size: 16pt;
+    }
+    .column p {
+        font-size: 8pt;
+    }
+    .threeColumn img {
+        width: 45px;
+        height: 45px;
+    }
+    .navBox1, .navBox2, .navBox3{
+        font-size: 8pt;
+    }
+    .inner img{
+        max-height: 60px;
+    }
+    .titelFoot a {
+        font-size: 14pt;
+    }
+    .footerContacts {
+        font-size: 10pt;
+    }
+    .columnNav p {
+        font-size: 10pt;
+    }
+}
+@media (max-width: 660px) {
+    .title{
+        font-size: 8pt;
+    }
+    .navBox1, .navBox2, .navBox3{
+        font-size: 6pt;
+    }
+    .navBox2 {
+        width: 59px;
+    }
+    .inner img{
+        max-height: 55px;
+    }
+    .aboutMeSection {
+        margin: 40px 90px;
+    }
+    .aboutMe p {
+        font-size: 22pt;
+    }
+    .inf p{
+        padding-left: 15px;
+        font-size: 8pt;
+    }
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    .threeColumn {
+        width: 640px;
+    }
+    .column b {
+        font-size: 14pt;
+    }
+    .column p {
+        font-size: 6pt;
+    }
+    .threeColumn img {
+        width: 35px;
+        height: 35px;
+    }
+}
+@media (max-width: 558px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    }
+    .threeColumn {
+        width: 540px;
+    }
+    .column b {
+        font-size: 12pt;
+    }
+}
+@media (max-width: 519px) {
+    .aboutMeSection {
+        margin: 20px 70px;
+    }
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .titelFoot a {
+        font-size: 8pt;
+    }
+    .footerContacts {
+        font-size: 6pt;
+    }
+    .columnNav p {
+        font-size: 6pt;
+    }
+    .threeColumn {
+        width: 520px;
+    }
+}
+@media (max-width: 499px) {
+    .aboutMeSection {
+        margin: 30px 40px;
+    }
+    .aboutMe p {
+        font-size: 20pt;
+    }
+    .inner img{
+        max-height: 45px;
+    }
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+    .column b {
+        font-size: 10pt;
+    }
+}
+@media (max-width: 459px) {
+    .aboutMe p {
+        font-size: 18pt;
+    }
+    .inf p{
+        padding-left: 15px;
+        font-size: 6pt;
+    }
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+}
+@media (max-width: 419px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    }
+}
+@media (max-width: 379px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    }
+}
+@media (max-width: 339px) {
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+}

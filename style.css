@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    user-select: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    background-color: #000000;
+}
+
+/* Шапка */
+.header {
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+.inner img{
+    align-items: center;
+    display: block;
+    max-height: 79px;
+}
+.inner h1{
+    font-family: travelsNextBold;
+    color: rgb(255, 255, 255);
+}
+.inner p{
+    font-family: travelsNextThin;
+}
+.inner{
+    align-items: center;
+    display: block;
+    max-width:1800px;
+}
+.title{
+    font-size: 24pt;
+}
+/* Навигация */
+.nav{
+    width: 45%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+.nav b{
+    font-family: travelsNextRegular;
+    color: #ffffff;
+}
+.navBox1{
+    text-align: center;
+    width: 80px;
+    font-size: 12pt;
+}
+.navBox2{
+    text-align: center;
+    width: 108px;
+    font-size: 12pt;
+}
+.navBox3{
+    text-align: center;
+    width: 96px;
+    font-size: 12pt;
+}
+/* Основная часть */
+.img img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-size: cover;
+    min-height: 70px;
+}
+.aboutMeSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 400px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.aboutMe p{
+    font-family: travelsNextBold;
+    color: #ffffff;
+    font-size: 48pt;
+}
+.inf p{
+    font-family: travelsNextRegular;
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 14pt;
+    text-align: start;
+}
+/* Подвал */
+.footer{
+    border-top: 2px solid #ffffff;
+    z-index: 2;
+    background-color: rgb(0, 0, 0);
+    height: 375px;
+}
+.footerBlock{
+    color: rgb(255, 255, 255);
+     max-width: 1800px;
+     padding: 40px 0 0 55px;
+     height: 300px;
+}
+.titelFoot{
+    margin-bottom: 40px;
+}
+.titelFoot a{
+    font-family: travelsNextBold;
+    color: rgb(255, 255, 255);
+    width: 1920px;
+    font-size: 28pt;
+}
+.footNav{
+    font-family: travelsNextRegular;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+.columnNav p{
+    font-size: 18pt;
+    padding-top: 7px;
+    color: rgb(255, 255, 255);
+}
+.footerContacts{
+    text-transform: lowercase;
+    font-size: 25pt;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+/* Портфолио */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Контакты */
+.threeColumn{
+    display: flex;
+    justify-content: space-between;
+    width: 1050px;
+    margin-bottom: 150px;
+}
+.threeColumn img{
+    margin: 30px 70px;
+    width: 65px;
+    height: 65px;
+    align-items: center;
+}
+.link{
+    color: #ffffff;
+}
+.column p{
+    font-family: travelsNextRegular;
+    text-align: center;
+    font-size: 15pt;
+    margin-top: 25px;
+    line-height: 1.5;
+}
+.column b{
+    font-family: travelsNextBold;
+    text-align: center;
+    font-size: 20pt;
+}
+.column{
+    text-align: center;
+    width: 270px;
+    color: rgb(255, 255, 255);
+}
+
+
+

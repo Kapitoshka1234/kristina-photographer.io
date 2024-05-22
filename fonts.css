@@ -1,0 +1,12 @@
+@font-face {
+    font-family: travelsNextBold;
+    src: url(fonts/TravelsNextTrialBold.ttf);
+}
+@font-face {
+    font-family: travelsNextThin;
+    src: url(fonts/TravelsNextTrialThin.ttf);
+}
+@font-face {
+    font-family: travelsNextRegular;
+    src: url(fonts/TravelsNextTrialRegular.ttf);
+}
